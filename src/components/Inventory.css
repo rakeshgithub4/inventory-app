@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+.Inventory {
+    background-color: black;
+    height:100%;
+    width: 100%;
+
+}
+
+.Inventoryhead {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 15px
+}
+
+.adminUsertoggle {
+    color: white;
+    position: absolute;
+    margin-left: 90%;
+}
+
+.InventoryStats {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.InventoryStats .child {
+    height: 15vh;
+    width: 47vh;
+    background-color: rgb(32, 54, 32);
+    padding:15px 15px 0px 60px;
+    border-radius: 10px;
+}
+.InventoryStats .child p {
+    margin-bottom: 10px;
+}
+.InventoryStats .child h1 {
+    font-size: 45px;
+}
+.container {
+    overflow-x: auto;
+    height: 100vh;
+}
+
+table {
+    width:100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.204);
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: rgb(12, 12, 12);
+    /* margin-left: 15px */
+}
+
+th {
+    padding: 1rem;
+    background-color: rgb(12,12,12);
+    color: green;
+    text-align: left;
+}
+th:first-of-type {
+    border-top-left-radius: 10px;
+}
+
+th:last-of-type {
+    border-top-right-radius: 10px;
+}
+
+th:hover {
+    background-color: rgba(232,232,232,0.638);
+}
+tr:hover {
+    background-color: rgb(64, 66, 64);
+}
+
+td {
+    padding: 1rem;
+    color:white;
+}
+
+.delete {
+    color: red;
+}
+.edit {
+    color: green;
+}
+.view {
+    color: pink;
+}
+ .btnchild {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(12,12,12);
+    border-color: rgb(12, 12, 12);
+ }
+
+ .btnchild :disabled {
+    color: gray;
+ }

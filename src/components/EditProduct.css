@@ -1,0 +1,21 @@
+.editViewModal {
+    background-color: black;
+    color: black;
+}
+
+.editdetails {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.container {
+    background-color: black;
+}
+
+.saveDetails {
+    margin-top: 30px;
+    margin-left: 70%;
+    display: flex;
+    justify-content: space-between;
+}

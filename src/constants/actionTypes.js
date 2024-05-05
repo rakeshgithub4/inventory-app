@@ -1,0 +1,1 @@
+export const LATEST_REDUX_STATE = "LATEST_REDUX_STATE";
